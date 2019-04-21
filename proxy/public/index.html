@@ -2,34 +2,43 @@
 <html> 
   <head>  
   <title>DAILY HARVEST</title>  
+  <link rel="stylesheet" href="style.css">
   </head>
   <body>
-      <!-- <div class="topnav">
-          <span id="browse">Browse</span>
-          <span>Cookies</span>
-          <span>Who We Are</span>
-          <span>Gift</span>
-          <span id="title">DAILY HARVEST-ish</span>
-          <span>Help</span>
-          <span id="get-started">Get Started</span>
-          <span>Log In</span>
-        </div> -->
-        <div id="root"></div>
-        <div id="app"></div>
-        <div id="ingridients"></div>
+    <div>
+      <h4 id= "daily">DAILY HARVEST</h4>
+       <p class=navright>Help</p>
+       <p class=navright id="getstarted">Get Started</p>
+       <p class=navright>Login</p>
+     </div>
+    <div >
+      <div class= "top" id="root"></div>
+      <div class= "top" id="app"></div>
+    </div>
+      <div class="top" class="cross">
+        <img class="cross" src="lines.png"/>
+      </div>
+   
+        <div id="heather"></div>
+        <div class="top" class="cross">
+          <img class="cross" src="lines.png"/>
+        </div>
         <div id="reviews"></div>
-        <script src="/lib/react.development.js"></script>
-        <script src="/lib/react-dom.development.js"></script>
-        <script src="http://localhost:6001/bundle.js"></script>
-        <script src="http://localhost:8080/bundle.js"></script>
-        <script src="http://localhost:3000/bundle.js"></script>
-        <script src="http://localhost:9000/bundle.js"></script>
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
+        <script src="./vendor.js"></script>
+        <script src="./root.js"></script>
+        <script src="./app.js"></script>
+        <script src="./heather.js"></script>
+        <script src="./reviews.js"></script>
+       
         <script>
-            ReactDOM.render(React.createElement(Photos), document.getElementById('root'));
+            ReactDOM.render(React.createElement(ImageCarousel), document.getElementById('root'));
             ReactDOM.render(React.createElement(App), document.getElementById('app'));
-            ReactDOM.render(React.createElement(Ingridients), document.getElementById('ingridients'));
+            ReactDOM.render(React.createElement(Hetaher), document.getElementById('heather'));
             ReactDOM.render(React.createElement(ComponentReviews), document.getElementById('reviews'));
-        </script> 
+        </script>  
 
   </body> 
 </html>

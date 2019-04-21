@@ -1,0 +1,77 @@
+#root {
+  position: absolute;
+  left: 0px;
+  right: 0;
+  width: 100%;
+  float: left;
+}
+#app {
+  position: absolute;
+  top: 110px;
+  bottom: 0;
+  right: 200px;
+  left: 0;
+  margin: 0 0 0 auto;
+  width: 435px;
+  z-index: 2;
+  /* margin-top: 0px; */
+  /* float: right; */
+}
+
+#heather {
+  padding: 10px;
+  margin-top: 50px;
+  position: relative;
+  top: 550px;
+  display: block;
+  left: 230px;
+  bottom: 330px;
+}
+
+#reviews {
+  padding: 10px;
+  margin-top: 70px;
+  position: relative;
+  top: 550px;
+  width: 100%;
+}
+
+.flex-item {
+  width: 100%;
+}
+
+.top {
+  position: relative;
+}
+
+#daily {
+  position: absolute;
+  right: 552px;
+  float: right;
+  top: 15px;
+  text-align: center;
+  color: black;
+  letter-spacing: 4px;
+}
+.cross {
+  position: absolute;
+  height: 70px;
+  width: 100%;
+  top: 530px;
+}
+.navright {
+  display: inline-block;
+  position: relative;
+  left: 970px;
+  top: 17px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+ 
+}
+#getstarted {
+  padding-left: 30px;
+  padding-right: 30px;
+}
