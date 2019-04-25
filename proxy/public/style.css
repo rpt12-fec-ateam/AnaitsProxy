@@ -14,15 +14,13 @@
   margin: 0 0 0 auto;
   width: 435px;
   z-index: 2;
-  /* margin-top: 0px; */
-  /* float: right; */
 }
 
 #heather {
   padding: 10px;
   margin-top: 50px;
   position: relative;
-  top: 542px;
+  top: 592px;
   display: block;
   left: 230px;
   bottom: 309px;
@@ -34,7 +32,7 @@
   padding: 10px;
   margin-top: 70px;
   position: relative;
-  top: 550px;
+  top: 600px;
   width: 100%;
 }
 
@@ -50,7 +48,7 @@
   position: absolute;
   right: 552px;
   float: right;
-  top: 55px;
+  top: 65px;
   text-align: center;
   color: black;
   letter-spacing: 4px;
@@ -60,24 +58,44 @@
   position: absolute;
   height: 70px;
   width: 100%;
-  top: 530px;
+  top: 580px;
 }
 .navright {
   display: inline-block;
   position: relative;
   left: 970px;
-  top: 55px;
+  top: 65px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #000;
- z-index: 10;
+  z-index: 10;
 }
 #getstarted {
-  padding-left: 30px;
-  padding-right: 30px;
-  /* background-color: black;
-  width: 40px;
-  color: white; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+  color: white;
+}
+#help {
+  padding-right: 20px;
+}
+#login {
+  padding-left: 20px;
+}
+#start {
+  position: absolute;
+  top: 580px;
+  bottom: 0;
+  right: 340px;
+  left: 0;
+  margin: 0 0 0 auto;
+  z-index: 2;
+  width: 270px;
+  height: 40px;
+  background-color: black;
+  color: white;
 }
